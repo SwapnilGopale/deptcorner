@@ -1,0 +1,247 @@
+
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #fff;
+    background-color: #1c1d29;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/*footer1*/
+
+footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+
+height: 146px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }
+
+/*body*/
+body
+{
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	 background-attachment: fixed;
+
+
+}
+/*index division*/
+
+.mypara
+{
+	color:#fff;
+	margin: 83px;
+	/*padding: 30px;*/
+}
+
+
+
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+		color:#fff;
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+
+.myimg1 {
+    max-width: 50%;
+    height: 270px;
+    margin: 18px 36px 13px 101px;
+}
+
+.mission
+{
+	background: linear-gradient(#0b0d26d1,#595e63);
+	color:#fff;
+}
+
+.btngtstarted
+{
+	    border-radius: 27px;
+			FONT-SIZE: 20px;
+			background: linear-gradient(to left,red,orange,green,blue,purple);
+}
+
+.constpad30
+{
+	padding: 30px
+}
+
+.btnind
+{
+background-color:#ffffff0a;
+color:#fff;
+}
+
+.btnind:hover
+{
+background-color:#f3f3f36e;
+color:#000;
+}
+
+.panel-body {
+    padding: 15px;
+    background-color: #272348;
+}
+
+.panel-success {
+    border-color: #000;
+		color: #fff;
+}
+
+
+.upp
+{
+	    border-radius: 50%;
+    display: block;
+    margin: -1px;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+}
+
+.navcontainer {
+    width: 76px;
+}
+th
+{
+  color: #fff;
+}
+.table-hover>tbody>tr:hover {
+    background-color: #9c94da;
+}
+
+.table-hover>tbody>tr {
+    color: #fff;
+}
+
+.table-bordered>tbody>tr>td
+{
+border: 2px solid  #4c0d22;
+}
+
+
+.fa {
+    padding: 17px;
+    font-size: 30px;
+    width: 67px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-facebook:hover{
+    background: #fff;
+    color: #3B5998;
+}
+
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-google:hover {
+    background: #fff;
+    color: #dd4b39;
+}
+
+
+.navpic {
+    border-radius: 50%;
+    /* size: 51px; */
+    height: 114px;
+    width: 114px;
+    margin-left: 19px;
+}
+/*
+/*model*/
